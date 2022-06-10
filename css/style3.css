@@ -38,15 +38,14 @@ i[class^="fa"] span {position: absolute; left: -9999px;}
 
 #main-intro > div.box {background-color: #ffffff;}
 #main-intro h2 {font-size: 50px; font-weight: 700; }
-section#main-intro p {font-size: 20px; margin-top: 24px; line-height: 1.6; padding-bottom: 60px;}
+#main-intro > div.box > p {font-size: 20px; margin-top: 24px; line-height: 1.6; padding-bottom: 60px;}
 
-section#main-slide {height: 365px; padding-bottom: 100px;}
-section#main-slide > div.box {position: relative; height: 365px; background-color: #ffffff;}
-section#main-slide > div.box ul {width: 500%; height: 365px; position: absolute; left: 0; top: 0;}
-section#main-slide > div.box ul > li {float: left;}
-section#main-slide > div.box ul > li + li {margin-left: 20px;}
-section#main-slide > div.box ul > li > span.img {display: inline-block; width: 385px; height: 365px; background: url(../img/main-top-01.webp) center center no-repeat; background-size: cover; border-radius: 8px; position: relative;}
-section#main-slide > div.box ul > li >span > p {font-size: 13px; color: #ffffff; position: absolute; bottom: 15px; right: 15px;}
+#main-intro ul.slide {width: 500%; margin-bottom: 100px;}
+#main-intro ul.slide::after {content: ''; display: block; clear: both;}
+#main-intro ul.slide > li {width: 385px; height: 365px; float: left;}
+#main-intro ul.slide > li + li {margin-left: 20px;}
+#main-intro ul.slide > li > span.img {background: url(../img/main-top-01.webp) center center no-repeat; background-size: cover; display: inline-block; width: 100%; height: 100%; border-radius: 8px; position: relative;}
+#main-intro ul.slide > li > span.img > p {font-size: 13px; color: #ffffff; position: absolute; bottom: 15px; right: 15px;}
 
 
 
