@@ -21,7 +21,7 @@ i[class^="fa"] span {position: absolute; left: -9999px;}
 
 
 #header {position: fixed; left: 0; top: 0; width: 100%; height: 100px; background-color: #ffffff; z-index: 999;}
-#header > div.box-nav {max-width: 1195px; margin: 0 auto; padding: 34px 30px; height: 100%; box-sizing: border-box; position: relative;}
+#header > div.box-nav {width: 100%; max-width: 1195px; margin: 0 auto; padding: 34px 30px; height: 100%; box-sizing: border-box; position: relative;}
 #header > div.box-nav h1 {display: inline-block; width: 74px; height: 31px; position: absolute; left: 30px; top: 50%; transform: translate(0, -50%);}
 #gnb {}
 #gnb > ul {overflow: hidden; position: absolute; right: 30px; top: 50%; transform: translate(0, -50%);}
@@ -45,7 +45,8 @@ i[class^="fa"] span {position: absolute; left: -9999px;}
 #main-intro ul.slide > li {width: 385px; height: 365px; float: left;}
 #main-intro ul.slide > li + li {margin-left: 20px;}
 #main-intro ul.slide > li > span.img {background: url(../img/main-top-01.webp) center center no-repeat; background-size: cover; display: inline-block; width: 100%; height: 100%; border-radius: 8px; position: relative;}
-#main-intro ul.slide > li > span.img > p {font-size: 13px; color: #ffffff; position: absolute; bottom: 15px; right: 15px;}
+#main-intro ul.slide > li > span.img > p {font-size: 13px; color: #ffffff; position: absolute; bottom: 15px; right: 15px; text-shadow: 0px 1px 3px rgba(0, 0, 0, 30%);}
+#main-intro ul.slide > li > span.img > p > em {font-weight: 700;}
 
 
 
@@ -58,7 +59,7 @@ div.history-title > dl > dd > em {color: #35c5f0; font-weight: 700;}
 div.history-title > h2 {font-weight: 700; font-size: 34px; color: #ffffff; padding-bottom: 90px; line-height: 1.5;}
 div.history-box {background-color: #3f474d; padding: 50px; position: absolute; right: 0; top: 0; width: 500px; box-sizing: border-box; border-radius: 8px;}
 div.history-box > dl.history-content {color: #ffffff;}
-div.history-box > dl.history-content > dt {display: inline-block;float: left; width: 100px;}
+div.history-box > dl.history-content > dt {display: inline-block; float: left; width: 100px;}
 div.history-box > dl.history-content > dd {display: inline-block; float: left; width: calc(100% - 100px); margin-bottom: 20px;}
 div.history-box > dl.history-content > dd:last-child {margin-bottom: 0;}
 section#main-history > div.box > span {position: absolute; bottom: 0; right: 50%; transform: translate(-20%, -50%); color: #636567; font-size: 14px;}
@@ -79,7 +80,7 @@ section#main-app > div.box > ul.img-content > li > img {width: 460px; height: 32
 #main-app > div.box > ul.app-link > li > a {color: #ffffff; font-weight: 700; font-size: 16px;}
 
 
-
+#main-news {padding-bottom: 100px;}
 #main-news > div.box {background-color: #ffffff; padding-top: 80px; border-top: 1px solid rgb(214, 210, 210); box-sizing: border-box; padding-bottom: 100px;}
 #main-news > div.box > h2 {font-size: 36px; margin-bottom: 80px;}
 #main-news > div.box > ul.news {margin-bottom: 35px;}
