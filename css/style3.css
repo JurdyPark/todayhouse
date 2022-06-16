@@ -132,12 +132,14 @@ aside {width: 200px; background-color: #3f474d; border-radius: 30px; position: f
 aside > a {font-size: 18px; line-height: 64px; display: inline-block; width: 200px; text-align: center; color: #ffffff; font-weight: 700;}
 aside:hover {opacity: 1; transform: translate(0, 3px)}
 
-body.sub #main {background-color: yellow;}
 
+body.sub #main {background-color: #ffffff;}
+
+#job-value {overflow: hidden;}
 #job-value > div.box {background-color: #ffffff;}
 #job-value > div.box > h2 {font-size: 50px; font-weight: 700;}
 #job-value > div.box > p {font-size: 20px; margin-top: 24px; line-height: 1.6; padding-bottom: 60px;}
-#job-value > div.box > ul.value-list {overflow: hidden;}
+#job-value > div.box > ul.value-list::after {content: ''; display: block; clear: both;}
 #job-value > div.box > ul.value-list > li::before {content: ''; width: 120px; height: 3px; background-color: rgb(187, 184, 184); display: block; opacity: 0.2;}
 #job-value > div.box > ul.value-list > li {float: left; width: calc(100% / 7);}
 #job-value > div.box > ul.value-list > li > span {color: #35c5f0; font-weight: 700; font-size: 18px; display: inline-block; margin-top: 20px;}
@@ -155,7 +157,7 @@ body.sub #main {background-color: yellow;}
 #job-value ul.card > li > div em {font-weight: 700; margin-left: 10px; vertical-align: middle;}
 #job-value > span {background: url(../img/sub-team-bg.jpg) 0 0 no-repeat; display: block; width: 100%; height: 400px; background-size: cover; text-indent: -999px; overflow: hidden; margin-top: 50px;}
 
-#office {background-color: #f3f3f3;}
+#office {background-color: #f3f3f3; overflow: hidden;}
 #office > div.box {background-color: #f3f3f3;}
 #office > div.box > h2 {font-size: 35px; font-weight: 700; padding-top: 100px;}
 #office > div.box > p {font-size: 20px; margin-top: 24px; line-height: 1.6; padding-bottom: 60px;}
@@ -170,6 +172,6 @@ body.sub #main {background-color: yellow;}
 #welfare > div.box > h2 {font-size: 35px; font-weight: 700; padding-top: 100px;}
 #welfare > div.box > strong {font-size: 24px; font-weight: 700; display: block; margin-top: 50px; margin-bottom: 20px;}
 #welfare > div.box > ul {position: relative;}
-#welfare > div.box > ul > li::after {content: ''; width: 5px; height: 5px; border-radius: 5px; background-color: red; position: absolute; left: 0; transform: translate(8px, 12px);}
+#welfare > div.box > ul > li::after {content: ''; width: 5px; height: 5px; border-radius: 5px; background-color: #212529; position: absolute; left: 0; transform: translate(8px, 12px);}
 #welfare > div.box > ul > li {text-indent: 20px; font-size: 18px;}
 #welfare > div.box > ul > li + li {margin-top: 10px;}
