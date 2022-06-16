@@ -131,3 +131,26 @@ address {color: #636567; display: inline-block;font-size: 14px;}
 aside {width: 200px; background-color: #3f474d; border-radius: 30px; position: fixed; bottom: 50px; right: 50px;  transition: all 0.3s; box-shadow: 1px 2px 3px 2px #30363b}
 aside > a {font-size: 18px; line-height: 64px; display: inline-block; width: 200px; text-align: center; color: #ffffff; font-weight: 700;}
 aside:hover {opacity: 1; transform: translate(0, 3px)}
+
+body.sub #main {background-color: yellow;}
+
+#job-value > div.box {background-color: #ffffff;}
+#job-value > div.box > h2 {font-size: 50px; font-weight: 700;}
+#job-value > div.box > p {font-size: 20px; margin-top: 24px; line-height: 1.6; padding-bottom: 60px;}
+#job-value > div.box > ul.value-list {overflow: hidden;}
+#job-value > div.box > ul.value-list > li::before {content: ''; width: 120px; height: 3px; background-color: rgb(187, 184, 184); display: block; opacity: 0.2;}
+#job-value > div.box > ul.value-list > li {float: left; width: calc(100% / 7);}
+#job-value > div.box > ul.value-list > li > span {color: #35c5f0; font-weight: 700; font-size: 18px; display: inline-block; margin-top: 20px;}
+#job-value > div.box > ul.value-list > li > em {font-size: 25px;}
+#job-value a {width: 280px; background-color: #35c5f0; text-align: center; line-height: 64px; border-radius: 8px; display: inline-block; font-size: 18px; color: #ffffff; font-weight: 700; box-shadow: 0 2px 2px 2px rgb(187, 184, 184); margin: 100px 0;}
+#job-value ul.card {background-color: #ffffff; width: 500%;}
+#job-value ul.card::after {content: ''; display: block; clear: both;}
+#job-value ul.card > li {width: 365px; height: 300px;float: left; border: 1px solid rgb(187, 184, 184); box-sizing: border-box; border-radius: 5px; position: relative;}
+#job-value ul.card > li + li {margin-left: 20px;}
+#job-value ul.card > li > span {position: absolute; width: 23px; height: 16px; top: 30px; left: 20px;}
+#job-value ul.card > li >  span svg {width: 100%; height: 100%;}
+#job-value ul.card > li p {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);line-height: 2em; width: calc(100% - 40px); font-size: 18px;}
+#job-value ul.card > li > div {position: absolute; bottom: 20px; left: 20px;}
+#job-value ul.card > li > div > span {display: inline-block; width: 30px; height: 30px; border-radius: 30px; background: url(../img/sub-team-varo.jpg) center center no-repeat; background-size: cover; text-indent: -999px; overflow: hidden; vertical-align: middle;border: 1px solid rgb(187, 184, 184);}
+#job-value ul.card > li > div em {font-weight: 700; margin-left: 10px; vertical-align: middle;}
+#job-value > span {background: url(../img/sub-team-bg.jpg) 0 0 no-repeat; display: block; width: 100%; height: 400px; background-size: contain; text-indent: -999px; overflow: hidden; margin-top: 50px;}
