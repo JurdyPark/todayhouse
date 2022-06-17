@@ -53,19 +53,19 @@ i[class^="fa"] span {position: absolute; left: -9999px;}
 
 
 
-#main-history {background-color: #2f3438; padding: 112px 0 600px;}
+#main-history {background-color: #2f3438; padding: 77px 0 480px;}
 #main-history > div.box {position: relative; height: 740px; background-color: #2f3438}
 div.history-title {background-color: #2f3438; display: inline-block;  width: auto;}
-div.history-title > dl > dt {font-size: 16px; color: #636567;}
-div.history-title > dl > dd {font-size: 30px; margin-bottom: 20px; color: #ffffff;}
+div.history-title > dl > dt {font-size: 14px; color: #797b7d;}
+div.history-title > dl > dd {font-size: 24px; margin-bottom: 35px; color: #ffffff;}
 div.history-title > dl > dd > em {color: #35c5f0; font-weight: 700;}
-div.history-title > h2 {font-weight: 700; font-size: 28px; color: #ffffff; padding-bottom: 90px; line-height: 1.5;}
-div.history-box {background-color: #3f474d; padding: 50px; position: absolute; right: 0; top: 508px; width: auto; box-sizing: border-box; border-radius: 0; box-shadow: 0 0 8px 2px #23272a}
+div.history-title > h2 {font-weight: 700; font-size: 28px; color: #ffffff; padding-bottom: 55px; line-height: 1.5;}
+div.history-box {background-color: #3f474d; padding: 50px; position: absolute; right: 0; top: 465px; width: auto; box-sizing: border-box; border-radius: 0;}
 div.history-box > dl.history-content {color: #ffffff;}
 div.history-box > dl.history-content > dt {float: left; width: 100px;}
 div.history-box > dl.history-content > dd {float: left; width: calc(100% - 100px); margin-bottom: 20px;}
 div.history-box > dl.history-content > dd:last-child {margin-bottom: 0;}
-#main-history > div.box > span {position: absolute; bottom: 0; right: 50%; transform: translate(-20%, -50%); color: #636567; font-size: 14px;}
+#main-history > div.box > span {position: absolute; bottom: 300px; right: 0; transform: translate(-20%, -50%); color: #636567; font-size: 14px;}
 
 div.history-box > dl.history-content::after {content: ''; width: 2px; height: 600px; background-color: rgba(4, 4, 4, 0.136); display: block; clear: both; position: absolute; left: 131px; top: 60px;}
 div.history-box > dl.history-content > dt::before {content: ''; width: 8px; height: 8px; background-color: #ffffff; display: block; clear: both; border-radius: 10px; position: absolute; left: 128px; transform: translateY(10px); z-index: 10;}

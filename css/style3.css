@@ -72,12 +72,19 @@ div.history-box > dl.history-content > dt::after {content: ''; width: 4px; heigh
 
 
 @media all and (max-width: 1023px) {
-    #main-history {padding-bottom: 600px;}
+    #main-history {padding-bottom: 630px;}
     div.history-title {width: auto;}
     div.history-title > h2 {font-size: 28px;}
-    div.history-box {width: auto; border-radius: 0; top: 508px;}
-    #main-history > div.box > span {bottom: 251px; right: 0;}
-    div.history-box > dl.history-content::after {height: 600px;}
+    div.history-box {width: auto; border-radius: 0; top: 520px;}
+    div.history-box > dl.history-content > dt {font-size: 14px;}
+    div.history-box > dl.history-content > dd {margin-bottom: 23px; font-size: 16px;}
+    #main-history > div.box > span {bottom: 250px; right: 0;}
+    div.history-box > dl.history-content::after {height: 610px;}
+
+    div.history-box > dl.history-content > dt::before { transform: translateY(7px);}
+    div.history-box > dl.history-content > dt::after {transform: translateY(-11px);}
+    div.history-box > dl.history-content br {display: none;}
+
 }
 
 
