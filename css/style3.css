@@ -71,6 +71,15 @@ div.history-box > dl.history-content > dt::before {content: ''; width: 8px; heig
 div.history-box > dl.history-content > dt::after {content: ''; width: 4px; height: 4px; background-color: black; display: block; clear: both; border-radius: 10px; position: absolute; left: 130px; transform: translateY(-12px);z-index: 10;}
 
 
+@media all and (max-width: 1023px) {
+    #main-history {padding-bottom: 600px;}
+    div.history-title {width: auto;}
+    div.history-title > h2 {font-size: 28px;}
+    div.history-box {width: auto; border-radius: 0; top: 508px;}
+    #main-history > div.box > span {bottom: 251px; right: 0;}
+    div.history-box > dl.history-content::after {height: 600px;}
+}
+
 
 
 section#main-app > div.box {background-color: #ffffff; padding: 100px 20px;}
