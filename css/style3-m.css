@@ -4,14 +4,14 @@
 
 /* reset */
 html {-webkit-text-size-adjust: none; text-size-adjust: none;}
-body {margin: 0; font-family: Noto Sans KR,Apple SD Gothic Neo,"\B9D1\C740 \ACE0\B515",Malgun Gothic,sans-serif; -webkit-font-smoothing: antialiased; color: #212529;}
+body {margin: 0; font-family: Noto Sans KR,Apple SD Gothic Neo,"\B9D1\C740 \ACE0\B515",Malgun Gothic,sans-serif; -webkit-font-smoothing: antialiased; color: #212529; letter-spacing: -0.4px;}
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, dt {margin: 0; padding: 0;}
 a {color: inherit; text-decoration: inherit;}
 li {list-style: none;}
 address, em, i, cite {font-style: normal;}
 i[class^="fa"] {position: relative; display: inline-block; vertical-align: middle;}
 i[class^="fa"] span {position: absolute; left: -9999px;}
-h2 {font-weight: normal;}
+
 
 
 
@@ -22,7 +22,9 @@ h2 {font-weight: normal;}
 
 #header {position: fixed; left: 0; top: 0; width: 100%; height: 100px; background-color: #ffffff; z-index: 999;}
 #header > div.box-nav {width: 100%; max-width: 1195px; margin: 0 auto; padding: 34px 30px; height: 100%; box-sizing: border-box; position: relative;}
-#header > div.box-nav h1 {display: inline-block; width: 74px; height: 31px; position: absolute; left: 30px; top: 50%; transform: translate(0, -50%);}
+#header > div.box-nav h1 {display: inline-block; width: 60px; height: 30px; position: absolute; left: 30px; top: 50%; transform: translate(0, -50%);}
+#header > div.box-nav h1 > a > svg {width: 100%; height: 100%;}
+
 #gnb {}
 #gnb > ul {overflow: hidden; position: absolute; right: 30px; top: 50%; transform: translate(0, -50%);}
 #gnb > ul > li {float: left;}
@@ -35,16 +37,15 @@ h2 {font-weight: normal;}
 #main {margin-top: 180px;}
 #main > section > div.box { max-width: 1175px; padding: 0 20px; box-sizing: border-box; margin: 0 auto;}
 
-#main-intro {overflow: hidden;}
+
 #main-intro > div.box {background-color: #ffffff;}
-#main-intro h2 {font-size: 50px; font-weight: 700; }
-#main-intro h2 > br:nth-of-type(1) {display: none;}
-#main-intro h2 > br:nth-of-type(2) {display: block;}
-#main-intro > div.box > p {font-size: 20px; margin-top: 24px; line-height: 1.6; padding-bottom: 60px;}
+#main-intro h2 {font-size: 36px; font-weight: 700; }
+#main-intro > div.box > p {font-size: 18px; margin-top: 24px; line-height: 1.6; padding-bottom: 60px;}
+#main-intro > div.box > p > br {display: none;}
 
 #main-intro ul.slide {width: 500%; margin-bottom: 100px;}
 #main-intro ul.slide::after {content: ''; display: block; clear: both;}
-#main-intro ul.slide > li {width: 385px; height: 365px; float: left;}
+#main-intro ul.slide > li {width: 270px; height: 250px; float: left;}
 #main-intro ul.slide > li + li {margin-left: 20px;}
 #main-intro ul.slide > li > span.img {background: url(../img/main-top-01.webp) center center no-repeat; background-size: cover; display: inline-block; width: 100%; height: 100%; border-radius: 8px; position: relative;}
 #main-intro ul.slide > li > span.img > p {font-size: 13px; color: #ffffff; position: absolute; bottom: 15px; right: 15px; text-shadow: 0px 1px 3px rgba(0, 0, 0, 30%);}
